@@ -5,7 +5,6 @@ class Student < Person
 
   def initialize(age, name = 'unknown', parent_permission: true)
     super(name, age, parent_permission)
-   
   end
 
   def play_hooky
